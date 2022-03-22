@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>RADNO VRIJEME</title>
+    <meta charset="UTF-8"/>
+
+    <style>
+
+body{
+    background-image: url('slike/pozadina.jpg');
+     background-repeat: no-repeat;
+     }
+
+   #logo {
+width:200px;
+height:100px;
+position:absolute;
+top:0px;
+right:0px;
+
+}
+
+#tabela {
+    width:40%;
+}
+
+#tabela table, th, td {
+    border-style: solid;
+    border-color:blue brown pink green;
+    border-collapse: collapse;
+
+}
+
+#tabela th,td {
+    padding: 10px;
+}
+
+#tabela  {
+
+    background-color:black;
+    color:white;
+    position:absolute;
+    top:250px;
+    left:550px;
+}
+
+#obavijest {
+    position: absolute;
+    top:500px;
+    left:200px
+}
+
+
+
+#nazadNapocetnu {
+    position:absolute;
+    bottom:80px;
+    right:60px;
+    font-size: 25px;
+}
+
+
+    
+
+
+   
+    </style>
+    
+</head>
+
+<body> 
+
+    <p ><img src="slike/logo.png" id="logo"/> 
+    
+    <h1 style="text-align:center; color: blue;"> Radno Vrijeme </h1>
+
+    <table id="tabela">
+        <caption style="color:black; font-weight:bold; font-size: 20px;"> Radno vrijeme u sedmici</caption>
+        <tr>
+        <th> Ponedeljak </th>
+        <th> Utorak </th>
+        <th> Srijeda </th>
+        <th> Četvrtak </th>
+        <th> Petak </th>
+        <th> Subota </th>
+        <th> Nedelja </th>
+
+        </tr>
+
+        <tr>
+
+            <td>08-18h</td>
+            <td>08-18h</td>
+            <td>08-18h</td>
+            <td>08-18h</td>
+            <td>08-18h</td>
+            <td>10-16h</td>
+            <td>Ne radimo!</td>
+        </tr>
+
+    </table>
+
+    <div id="obavijest"> 
+    <h3> Obavijest </h3>
+    <p style="font-weight: bold;"> Praznikom ne  radimo! </p>
+
+    </div>
+
+    <a href="Pocetna.html" id="nazadNapocetnu"> Povratak na početnu</a>
+
+</body>
+
+</html>
